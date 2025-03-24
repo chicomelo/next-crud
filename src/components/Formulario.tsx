@@ -47,7 +47,7 @@ export default function Formulario(props: FormularioProps) {
                 <Botao cor="blue" 
                     className="from-blue-300 to-blue-600"
                     onClick={
-                        () => props.clienteMudou?.(new Cliente(nome, +idade, id))
+                        () => props.clienteMudou?.(new Cliente(nome, +idade, id || ''))
                     }>
                     {id ? 'Alterar' : 'Salvar'}
                 </Botao>
