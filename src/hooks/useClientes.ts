@@ -6,7 +6,7 @@ import useTabelaOuForm from "./useTabelaOuForm";
 
 export default function useClientes(){
 
-      const repo: ClienteRepositorio = new ColecaoCliente();
+    const repo: ClienteRepositorio = new ColecaoCliente();
     
     const {
         tabelaVisivel,
